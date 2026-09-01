@@ -1,0 +1,85 @@
+{
+  "id": "hale",
+  "name": "Hale & Rowan",
+  "description": "Architecture studio and professional services landing. Limestone, copper, charcoal, and geometric display type. Light-custom: logo, colours, fonts, copy, and section on/off.",
+  "category": "landing-page",
+  "subcategory": "architecture",
+  "repository": "https://github.com/Little-Devs/template-hale",
+  "demoUrl": "https://hale.little.website/",
+  "previewImage": "",
+  "techStack": {
+    "framework": "Astro",
+    "version": "5.17.1",
+    "styling": "CSS variables",
+    "scripting": "TypeScript",
+    "buildTool": "Vite"
+  },
+  "features": [
+    "Architecture studio and professional services landing",
+    "Light-custom: logo, colours, fonts, and copy",
+    "Section on/off for hero, practice, projects, approach, studio, and contact",
+    "Limestone, copper, and charcoal palette",
+    "Geometric display type (Syne)",
+    "Fully responsive Astro SSG"
+  ],
+  "aesthetic": {
+    "style": "Contemporary architecture studio",
+    "description": "Architecture studio and professional services landing",
+    "fonts": {
+      "display": "Syne",
+      "ui": "Manrope",
+      "sans": "Manrope",
+      "primary": "Syne"
+    },
+    "colors": {
+      "primary": "#2c241b",
+      "primaryName": "Charcoal",
+      "accent": "#8c4a2f",
+      "accentName": "Copper",
+      "background": "#f7f3ec",
+      "backgroundName": "Paper",
+      "charcoal": "#2c241b",
+      "limestone": "#c4b7a2",
+      "copper": "#8c4a2f",
+      "paper": "#f7f3ec"
+    }
+  },
+  "sections": [
+    "Hero",
+    "Practice",
+    "Projects",
+    "Approach",
+    "Studio",
+    "Contact"
+  ],
+  "useCases": [
+    "Architecture studios",
+    "Professional services firms",
+    "Design practices",
+    "Studio portfolios"
+  ],
+  "customization": {
+    "difficulty": "easy",
+    "colorScheme": "CSS variables",
+    "typography": "Google Fonts (Syne, Manrope)",
+    "layout": "CSS Grid + Flexbox"
+  },
+  "performance": {
+    "framework": "Astro (SSG)",
+    "cssOnly": "Most animations",
+    "lighthouse": "90+"
+  },
+  "license": "MIT",
+  "author": "Little-Devs",
+  "createdAt": "2026-09-01",
+  "lastUpdated": "2026-09-01",
+  "tags": [
+    "landing-page",
+    "architecture",
+    "studio",
+    "professional-services",
+    "astro",
+    "ssg"
+  ],
+  "version": "1.0.0"
+}
