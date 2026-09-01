@@ -1,0 +1,24 @@
+---
+import { site } from '../data/site';
+const { contact, logo } = site;
+---
+<section class="wrap section" id="contact">
+  <div class="contact">
+    <div>
+      <p class="kicker">Commission</p>
+      <h2>A one-page note is enough to start.</h2>
+      <p>Site, brief, and whether you already have a planner. We reply within a week. No portal.</p>
+      <address class="address">{logo.text}<br />{contact.address}<br />{contact.phone}</address>
+      <ul class="hours">{contact.hours.map((row) => (<li><span>{row.day}</span><span>{row.time}</span></li>))}</ul>
+    </div>
+    <form class="enquire" action={`mailto:${contact.email}`} method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input id="name" name="name" required />
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required />
+      <label for="note">Site, brief, and planner if any</label>
+      <textarea id="note" name="note" rows="4" required></textarea>
+      <button class="btn" type="submit">Open mail to sales@little.cloud</button>
+    </form>
+  </div>
+</section>

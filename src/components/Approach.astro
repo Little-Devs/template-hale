@@ -1,0 +1,12 @@
+---
+import { site } from '../data/site';
+const { approach } = site;
+---
+<section class="wrap section" id="approach">
+  <div class="section-head"><p class="kicker">{approach.kicker}</p><h2>{approach.title}</h2></div>
+  <div class="process">
+    {approach.steps.map((step) => (
+      <div class="step"><h3>{step.title}</h3><p>{step.body}</p></div>
+    ))}
+  </div>
+</section>
