@@ -1,0 +1,12 @@
+---
+import { site } from '../data/site';
+const { practice } = site;
+---
+<section class="wrap section" id="practice">
+  <div class="section-head"><p class="kicker">{practice.kicker}</p><h2>{practice.title}</h2></div>
+  <div class="practice">
+    {practice.items.map((item) => (
+      <article class="service"><span class="num">{item.num}</span><div><h3>{item.title}</h3><p>{item.body}</p></div></article>
+    ))}
+  </div>
+</section>

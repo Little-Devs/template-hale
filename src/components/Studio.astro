@@ -1,0 +1,15 @@
+---
+import { site } from '../data/site';
+const { studio } = site;
+---
+<section class="wrap section" id="studio">
+  <div class="studio">
+    <div>
+      <p class="kicker">{studio.kicker}</p>
+      <h2>{studio.title}</h2>
+      <p>{studio.manifesto}</p>
+      <ul class="studio-list">{studio.points.map((p) => (<li>{p}</li>))}</ul>
+    </div>
+    <div class="studio-frame" aria-hidden="true"></div>
+  </div>
+</section>
